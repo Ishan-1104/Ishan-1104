@@ -63,10 +63,6 @@ AI-powered resume builder.
 
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Ishan-1104&layout=compact&theme=tokyonight)
 
-## 🏆 GitHub Trophies
-
-![](https://github-profile-trophy.vercel.app/?username=Ishan-1104&theme=tokyonight&no-frame=true&row=1&column=7)
-
 ## 📊 Contribution Graph
 
 ![](https://github-readme-activity-graph.vercel.app/graph?username=Ishan-1104&theme=tokyo-night)
