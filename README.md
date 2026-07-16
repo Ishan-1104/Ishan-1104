@@ -69,10 +69,9 @@ AI-powered resume builder.
 
 ## 🐍 Contribution Snake
 
-```text
-Add this using GitHub Actions:
-https://github.com/Platane/snk
-```
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Ishan-1104/Ishan-1104/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" />
+</p>
 
 ## 🌱 Currently Learning
 - LLMs
