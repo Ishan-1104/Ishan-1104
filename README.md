@@ -12,7 +12,7 @@
 
 ## 🚀 About Me
 
-- 🎓 Third Year Computer Engineering Student
+- 🎓 Final Year Computer Engineering Student
 - 🤖 AI • Machine Learning • Deep Learning • Generative AI
 - 💻 Full Stack MERN Developer
 - 🌱 Currently learning **LLMs, RAG, LangChain, MLOps**
@@ -27,41 +27,31 @@ AI-powered movie recommendation platform.
 
 **Repository:** https://github.com/Ishan-1104/CineAI
 
-[![Repo](https://github-readme-stats.vercel.app/api/pin/?username=Ishan-1104&repo=CineAI&theme=tokyonight)](https://github.com/Ishan-1104/CineAI)
-
 ### 💬 Streamify
 Real-time chat & video platform.
 
 **Repository:** https://github.com/Ishan-1104/Streamify
-
-[![Repo](https://github-readme-stats.vercel.app/api/pin/?username=Ishan-1104&repo=Streamify&theme=tokyonight)](https://github.com/Ishan-1104/Streamify)
 
 ### 📄 ResumeForge AI
 AI-powered resume builder.
 
 **Repository:** https://github.com/Ishan-1104/resumeforge-ai-1
 
-[![Repo](https://github-readme-stats.vercel.app/api/pin/?username=Ishan-1104&repo=resumeforge-ai-1&theme=tokyonight)](https://github.com/Ishan-1104/resumeforge-ai-1)
-
 ### 🩺 Multi Disease Prediction
 
 **Repository:** https://github.com/Ishan-1104/multi-diseases
-
-[![Repo](https://github-readme-stats.vercel.app/api/pin/?username=Ishan-1104&repo=multi-diseases&theme=tokyonight)](https://github.com/Ishan-1104/multi-diseases)
 
 ---
 
 # 💻 Tech Stack
 
 <p>
-<img src="https://skillicons.dev/icons?i=cpp,c,python,java,javascript,typescript,html,css,react,nextjs,vite,tailwind,redux,nodejs,express,mongodb,mysql,postgres,tensorflow,pytorch,git,github,docker,linux,postman,vscode,firebase,supabase,vercel,figma"/>
+<img src="https://skillicons.dev/icons?i=cpp,c,python,javascript,typescript,html,css,react,nextjs,vite,tailwind,redux,nodejs,express,mongodb,mysql,postgres,tensorflow,pytorch,git,github,docker,linux,postman,vscode,firebase,supabase,vercel,figma"/>
 </p>
 
 ![](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn)
 ![](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas)
 ![](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy)
-![](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv)
-![](https://img.shields.io/badge/Appwrite-F02E65?style=for-the-badge&logo=appwrite)
 
 ---
 
