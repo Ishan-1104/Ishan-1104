@@ -46,7 +46,7 @@ AI-powered resume builder.
 # 💻 Tech Stack
 
 <p>
-<img src="https://skillicons.dev/icons?i=cpp,c,python,javascript,typescript,html,css,react,nextjs,vite,tailwind,redux,nodejs,express,mongodb,mysql,postgres,tensorflow,pytorch,git,github,docker,linux,postman,vscode,firebase,supabase,vercel,figma"/>
+<img src="https://skillicons.dev/icons?i=cpp,python,javascript,typescript,html,css,react,nextjs,vite,tailwind,redux,nodejs,express,mongodb,mysql,postgres,tensorflow,pytorch,git,github,docker,linux,postman,vscode,firebase,supabase,vercel,figma"/>
 </p>
 
 ![](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn)
