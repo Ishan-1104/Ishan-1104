@@ -1,229 +1,128 @@
-<div align="center">
-
 # Ishan Chhaparwal
 
-### Final-Year Computer Engineering Student · AI/ML & Full-Stack (MERN) Developer
+**Final-Year Computer Engineering Student · AI/ML & Full-Stack (MERN) Developer**
 
-<a href="https://www.linkedin.com/in/ishan-chhaparwal/">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Final-Year+Computer+Engineering+Student;AI+%2F+ML+%26+GenAI+Builder;Full-Stack+MERN+Developer;Shipping+real+products%2C+not+just+notebooks;Based+in+Pune%2C+India&font=Fira+Code&center=true&width=650&height=45&color=0e75b6&vCenter=true&size=22" alt="Final-Year Computer Engineering Student, AI/ML & GenAI builder, Full-Stack MERN developer, based in Pune, India" />
-</a>
+LinkedIn: [linkedin.com/in/ishan-chhaparwal](https://www.linkedin.com/in/ishan-chhaparwal/) · GitHub: [github.com/Ishan-1104](https://github.com/Ishan-1104) · Based in Pune, India
 
 I build end-to-end AI products — from LLM-powered agents and RAG pipelines to full-stack web apps and ML models — and ship them with real UIs, not just notebooks.
 
-[![Portfolio](https://img.shields.io/badge/LinkedIn-ishan--chhaparwal-0e75b6?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ishan-chhaparwal/)
-[![GitHub followers](https://img.shields.io/github/followers/Ishan-1104?style=for-the-badge&logo=github&color=181717)](https://github.com/Ishan-1104)
-[![Location](https://img.shields.io/badge/Based%20in-Pune%2C%20India-orange?style=for-the-badge)](#)
+---
 
-</div>
+## About Me
+
+- Final-year Computer Engineering student, focused on AI, Machine Learning, Deep Learning, and Generative AI
+- Full-Stack (MERN) developer, comfortable owning a product from database to UI
+- Currently deep-diving into LLM agents, RAG pipelines, LangChain, and MLOps
+- Ships projects with real deployments on Vercel and Streamlit Cloud, not just local demos
+- Open to AI/ML and Full-Stack development internships and opportunities
 
 ---
 
-## 🚀 About Me
+## Contribution Snake
 
-- 🎓 Final-year **Computer Engineering** student
-- 🤖 Focused on **AI, Machine Learning, Deep Learning & Generative AI**
-- 💻 **Full-Stack (MERN)** developer — comfortable owning a product from database to UI
-- 🧠 Deep-diving into **LLM agents, RAG pipelines, LangChain & MLOps**
-- 🛠️ Ships projects with real deployments (Vercel / Streamlit Cloud), not just local demos
-- 📫 Open to **AI/ML** and **Full-Stack development** internships/opportunities
+A GitHub Action regenerates this daily from my contribution graph:
 
----
+```
+https://raw.githubusercontent.com/Ishan-1104/Ishan-1104/output/github-contribution-grid-snake-dark.svg
+```
 
-## 🐍 Contribution Snake
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Ishan-1104/Ishan-1104/output/github-contribution-grid-snake-dark.svg" alt="A snake eating my GitHub contribution graph" width="100%"/>
-</div>
-
-> Generated automatically every day by a GitHub Action. See **[Setup](#-setting-up-the-contribution-snake)** below if you're forking this for your own profile.
+Setup instructions are at the bottom of this file. Once the workflow has run at least once, this can be embedded directly in the README as an image if you change your mind on images later — for now it's left as a link so nothing here can show up broken.
 
 ---
 
-## 🏆 Featured Projects
+## Featured Projects
 
-<table>
-<tr>
-<td width="50%" valign="top">
+### ResearchMind — Multi-Agent AI Research System
+[github.com/Ishan-1104/Multi_Agent_System](https://github.com/Ishan-1104/Multi_Agent_System) · [Live demo](https://research-mind-18.streamlit.app/)
 
-<img src="https://opengraph.githubassets.com/1/Ishan-1104/Multi_Agent_System" width="100%" alt="ResearchMind repo preview"/>
+- Multi-agent pipeline that searches the web, scrapes full content, drafts a structured report, and critiques its own output — orchestrated end-to-end with LangChain
+- Pipeline stages: Search Agent (Tavily + Mistral tool-calling) → Scraper (BeautifulSoup, with URL fallback) → Writer Chain (900–1200 word report) → Critic Chain (self-scored feedback)
+- Streamlit UI with real-time stage tracking, run history, and Markdown export
 
-**🔬 [ResearchMind — Multi-Agent AI Research System](https://github.com/Ishan-1104/Multi_Agent_System)**
+**Stack:** Python, LangChain, Mistral AI, Tavily, BeautifulSoup4, Streamlit
 
-Takes any topic and automatically **searches the web, scrapes full content, drafts a structured report, and critiques its own output** — orchestrated end-to-end with LangChain.
+### AI Video Assistant (Video-Agent)
+[github.com/Ishan-1104/Video-Agent](https://github.com/Ishan-1104/Video-Agent) · [Live demo](https://video-agent-18.streamlit.app/)
 
-- **Pipeline:** Search Agent (Tavily + Mistral tool-calling) → Scraper (BeautifulSoup, URL fallback) → Writer Chain (900–1200 word report) → Critic Chain (self-scored feedback)
-- Live Streamlit UI with real-time stage tracking, run history, Markdown export
+- Transcribes any meeting recording or YouTube video (English + Hinglish) and auto-generates a title, summary, action items, and open questions
+- RAG-based chat over the transcript using a Chroma vector store, HuggingFace embeddings, and LangChain LCEL with Mistral AI
+- Ships as both a scriptable CLI and a full Streamlit web UI with live pipeline status and export
 
-`Python` `LangChain` `Mistral AI` `Tavily` `BeautifulSoup4` `Streamlit`
+**Stack:** Python, LangChain, Mistral AI, ChromaDB, Sentence-Transformers, Streamlit
 
-🔗 [Live demo](https://research-mind-18.streamlit.app/)
+### Streamify
+[github.com/Ishan-1104/Streamify](https://github.com/Ishan-1104/Streamify) · [Live demo](https://streamify-1-gesi.onrender.com)
 
-</td>
-<td width="50%" valign="top">
+- Full-stack, real-time chat and video communication platform with a responsive, modern UI
+- In-app video calling alongside one-on-one and group text chat
+- Authentication with protected routes, plus a friends/connections system for managing contacts
 
-<img src="https://opengraph.githubassets.com/1/Ishan-1104/Video-Agent" width="100%" alt="AI Video Assistant repo preview"/>
+**Stack:** Node.js, Express, React — deployed on Vercel/Render
 
-**🎬 [AI Video Assistant (Video-Agent)](https://github.com/Ishan-1104/Video-Agent)**
+### ResumeForge AI
+[github.com/Ishan-1104/resumeforge-ai-1](https://github.com/Ishan-1104/resumeforge-ai-1) · [Live demo](https://resumeforge-ai-five.vercel.app)
 
-Turns any meeting recording or YouTube video into a **searchable, chattable knowledge base** using RAG.
+- Turns raw project descriptions into ATS-ready resume content — bullet points, summaries, and skills lists
+- Powered by Groq's `llama-3.3-70b-versatile` for fast inference
+- Built as a polished SaaS-style tool rather than a bare script, with a full Next.js frontend
 
-- Transcribes audio/video (English + Hinglish), auto-generates title & summary, extracts action items & decisions
-- Chat with your video via Chroma + HuggingFace embeddings + LangChain LCEL + Mistral AI
-- CLI + full Streamlit web UI with live pipeline status and export
+**Stack:** Next.js 15, TypeScript, Tailwind CSS, Groq API
 
-`Python` `LangChain` `Mistral AI` `ChromaDB` `Sentence-Transformers` `Streamlit`
+### CineAI
+[github.com/Ishan-1104/CineAI](https://github.com/Ishan-1104/CineAI) · [Live demo](https://cineai-6ygv.onrender.com)
 
-🔗 [Live demo](https://video-agent-18.streamlit.app/)
+- AI-powered movie recommendation platform built on a client/server architecture
+- Separates recommendation logic on the server from a JavaScript client, MERN-style
+- Deployed live rather than left as a local-only demo
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+**Stack:** JavaScript (MERN-style client/server split)
 
-<img src="https://opengraph.githubassets.com/1/Ishan-1104/Streamify" width="100%" alt="Streamify repo preview"/>
+### Multi-Disease Prediction System
+[github.com/Ishan-1104/multi-diseases](https://github.com/Ishan-1104/multi-diseases) · [Live demo](https://multi-diseases-xahsafbhcqcsgfpvpkqgu2.streamlit.app/)
 
-**💬 [Streamify](https://github.com/Ishan-1104/Streamify)**
+- Predicts the likelihood of diabetes, heart disease, and Parkinson's disease from patient data
+- Trained scikit-learn models serialized and served through a Python prediction script
+- Packaged as an interactive Streamlit app rather than a notebook-only result
 
-A full-stack, real-time **chat & video communication platform**.
-
-- Real-time one-on-one (and group) messaging with a responsive, modern UI
-- In-app video calling alongside chat
-- Auth & protected routes, plus a friends/connections system
-
-`Node.js` `Express` `React` — deployed on Vercel/Render
-
-🔗 [Live demo](https://streamify-1-gesi.onrender.com)
-
-</td>
-<td width="50%" valign="top">
-
-<img src="https://opengraph.githubassets.com/1/Ishan-1104/resumeforge-ai-1" width="100%" alt="ResumeForge AI repo preview"/>
-
-**📄 [ResumeForge AI](https://github.com/Ishan-1104/resumeforge-ai-1)**
-
-AI-powered SaaS-style tool that turns raw project descriptions into **ATS-ready resume content** — bullets, summaries, skills lists.
-
-- Powered by Groq's `llama-3.3-70b-versatile`
-
-`Next.js 15` `TypeScript` `Tailwind CSS` `Groq API`
-
-🔗 [Live demo](https://resumeforge-ai-five.vercel.app)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<img src="https://opengraph.githubassets.com/1/Ishan-1104/CineAI" width="100%" alt="CineAI repo preview"/>
-
-**🎥 [CineAI](https://github.com/Ishan-1104/CineAI)**
-
-An AI-powered movie recommendation platform built on a client/server architecture.
-
-`JavaScript` (MERN-style client/server split)
-
-🔗 [Live demo](https://cineai-6ygv.onrender.com)
-
-</td>
-<td width="50%" valign="top">
-
-<img src="https://opengraph.githubassets.com/1/Ishan-1104/multi-diseases" width="100%" alt="Multi-Disease Prediction System repo preview"/>
-
-**🩺 [Multi-Disease Prediction System](https://github.com/Ishan-1104/multi-diseases)**
-
-An ML app that predicts the likelihood of **diabetes, heart disease, and Parkinson's disease** from patient data.
-
-- Trained scikit-learn models served via a Python prediction script
-
-`Python` `scikit-learn` `Pandas`
-
-🔗 [Live demo](https://multi-diseases-xahsafbhcqcsgfpvpkqgu2.streamlit.app/)
-
-</td>
-</tr>
-</table>
+**Stack:** Python, scikit-learn, Pandas
 
 ---
 
-## 💻 Tech Stack
+## Tech Stack
 
-<table>
-<tr>
-<td valign="top">
+**Languages:** Python, JavaScript, TypeScript, C++
 
-**Languages**
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+**Frontend:** React, Next.js, Tailwind CSS, HTML5, CSS3
 
-</td>
-<td valign="top">
+**Backend & Databases:** Node.js, Express, MongoDB
 
-**Frontend**
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+**AI / ML / GenAI:** LangChain, scikit-learn, Pandas, NumPy, Streamlit, Mistral AI
 
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-**Backend**
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-
-</td>
-<td valign="top">
-
-**AI / ML / GenAI**
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![Mistral AI](https://img.shields.io/badge/Mistral_AI-FA520F?style=flat-square&logo=mistralai&logoColor=white)
-
-</td>
-</tr>
-</table>
+**Tools & Platforms:** Git, GitHub, Vercel, VS Code
 
 ---
 
-## 📈 GitHub Stats
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Ishan-1104&show_icons=true&theme=tokyonight&hide_border=true" alt="Ishan's GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ishan-1104&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
-
-</div>
-
-> ⚠️ These two images come from a free, community-run stats service that occasionally rate-limits and shows broken images. If they're not loading, it's almost never your README's fault — try a hard refresh (Ctrl/Cmd+Shift+R) in a few minutes. If it stays broken for days, see the note at the bottom of this file for a permanent fix.
-
----
-
-## 🌱 Currently Learning / Building
+## Currently Learning / Building
 
 - **Learning:** LLM architectures, LangChain internals, RAG system design, vector databases, MLOps
 - **Building:** production-grade AI applications (agentic pipelines, RAG assistants) and MERN full-stack products
 
 ---
 
-## 🌐 Connect With Me
+## Connect
 
-<div align="center">
+LinkedIn: [linkedin.com/in/ishan-chhaparwal](https://www.linkedin.com/in/ishan-chhaparwal/)
+GitHub: [github.com/Ishan-1104](https://github.com/Ishan-1104)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0e75b6?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ishan-chhaparwal/)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ishan-1104)
+If a project here caught your eye, a star means a lot — thanks for stopping by.
 
-</div>
+---
 
-<div align="center">
+## Setting up the Contribution Snake
 
-⭐ **If a project here caught your eye, a star means a lot — thanks for stopping by!**
+The snake animation is generated by the [Platane/snk](https://github.com/Platane/snk) GitHub Action, not by markdown alone:
 
-
-## 🔧 If the GitHub Stats images stay broken
-
-`github-readme-stats.vercel.app` is a free public instance shared by everyone using this badge, and it does hit rate limits. The permanent fix, per the project's own maintainers, is to **fork [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats)** and deploy your own copy to your personal Vercel account (free, takes ~5 minutes), then point the image URLs above at your own deployment domain instead of the shared one.
+1. Add the included `snake.yml` to this repo at `.github/workflows/snake.yml`.
+2. In Settings → Actions → General → Workflow permissions, enable "Read and write permissions."
+3. Commit, then run the workflow once manually from the Actions tab.
+4. An `output` branch appears holding the generated SVGs. At that point you can embed it as an image if you want it visible in the README — until then it's left as a plain link above so nothing renders broken.
