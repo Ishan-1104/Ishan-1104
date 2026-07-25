@@ -51,8 +51,6 @@ A full-stack, real-time **chat & video communication platform** built on a clean
 - **Stack:** JavaScript across the full stack (Node.js/Express-style backend + a React-based frontend), deployed on Vercel
 - 🔗 **Live demo:** [streamify-eight-tau.vercel.app](https://streamify-1-gesi.onrender.com)
 
-> *Note: exact backend framework/real-time libraries (e.g. Express, Socket.io/WebRTC provider) — worth naming explicitly in the repo's own README so visitors don't have to open `backend/` to find out.*
-
 ### 📄 [ResumeForge AI](https://github.com/Ishan-1104/resumeforge-ai-1)
 AI-powered SaaS-style tool that turns raw project descriptions into **ATS-ready resume content** — bullet points, summaries, and skills lists — powered by Groq's `llama-3.3-70b-versatile`.
 - 🔗 **Live demo:** [resumeforge-ai-five.vercel.app](https://resumeforge-ai-five.vercel.app)
