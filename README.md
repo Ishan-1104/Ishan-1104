@@ -2,7 +2,9 @@
 
 # Hi, I'm Ishan Chhaparwal 👋
 
-### Final-Year Computer Engineering Student · AI/ML & Full-Stack (MERN) Developer
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Final-Year+Computer+Engineering+Student;AI%2FML+Developer;Full-Stack+(MERN)+Developer" alt="Typing SVG" />
+</a>
 
 I build end-to-end AI products — from LLM-powered agents and RAG pipelines to full-stack web apps and ML models — and ship them with real UIs, not just notebooks.
 
@@ -34,8 +36,6 @@ A GitHub Action regenerates this daily from my contribution graph:
 
 </div>
 
-> Setup instructions are at the bottom of this file. Once the `snake.yml` workflow has run at least once and the `output` branch exists, this image will render automatically — until then, GitHub will simply show a broken image here.
-
 ---
 
 ## 🚀 Featured Projects
@@ -43,13 +43,9 @@ A GitHub Action regenerates this daily from my contribution graph:
 ### 🧠 [ResearchMind — Multi-Agent AI Research System](https://github.com/Ishan-1104/Multi_Agent_System)
 **[🔗 Live Demo](https://research-mind-18.streamlit.app/)**
 
-Multi-agent pipeline that searches the web, scrapes full content, drafts a structured report, and critiques its own output — orchestrated end-to-end with LangChain.
-
-- 🔍 **Search Agent** (Tavily + Mistral tool-calling)
-- 🕸️ **Scraper** (BeautifulSoup, with URL fallback)
-- ✍️ **Writer Chain** (900–1200 word report)
-- 🧐 **Critic Chain** (self-scored feedback)
-- 📊 Streamlit UI with real-time stage tracking, run history, and Markdown export
+- 🔍 **Orchestrated multi-agent pipeline:** a Search Agent (Tavily + Mistral tool-calling) finds relevant sources, a Scraper (BeautifulSoup, with a URL fallback) pulls the full page content, and the whole flow is chained end-to-end with LangChain so each stage feeds the next automatically.
+- ✍️ **Self-critiquing report generation:** the Writer Chain drafts a structured 900–1200 word report from the scraped material, then a separate Critic Chain reviews and self-scores that output, giving the pipeline a built-in quality-check step instead of a single-pass generation.
+- 📊 **Real-time Streamlit interface:** tracks pipeline stage progress live as the agents work, keeps a history of past runs for reference, and lets users export the final report directly to Markdown.
 
 `Python` `LangChain` `Mistral AI` `Tavily` `BeautifulSoup4` `Streamlit`
 
@@ -58,10 +54,9 @@ Multi-agent pipeline that searches the web, scrapes full content, drafts a struc
 ### 🎥 [AI Video Assistant (Video-Agent)](https://github.com/Ishan-1104/Video-Agent)
 **[🔗 Live Demo](https://video-agent-18.streamlit.app/)**
 
-Transcribes any meeting recording or YouTube video (English + Hinglish) and auto-generates a title, summary, action items, and open questions.
-
-- 💬 RAG-based chat over the transcript using **Chroma vector store**, HuggingFace embeddings, and LangChain LCEL with Mistral AI
-- 🖥️ Ships as both a scriptable CLI and a full Streamlit web UI with live pipeline status and export
+- 🎙️ **Bilingual transcription and summarization:** takes any meeting recording or YouTube video in English or Hinglish and automatically generates a title, summary, action items, and open questions, turning raw audio into a structured meeting record.
+- 💬 **RAG-based chat over the transcript:** builds a Chroma vector store from the transcript using HuggingFace sentence-transformer embeddings, then lets users ask follow-up questions answered through a LangChain LCEL pipeline backed by Mistral AI.
+- 🖥️ **Dual interface design:** ships as both a scriptable CLI for automation/batch use and a full Streamlit web UI with live pipeline status, so it works equally well in a terminal workflow or as a standalone app.
 
 `Python` `LangChain` `Mistral AI` `ChromaDB` `Sentence-Transformers` `Streamlit`
 
@@ -70,10 +65,9 @@ Transcribes any meeting recording or YouTube video (English + Hinglish) and auto
 ### 💬 [Streamify](https://github.com/Ishan-1104/Streamify)
 **[🔗 Live Demo](https://streamify-1-gesi.onrender.com)**
 
-Full-stack, real-time chat and video communication platform with a responsive, modern UI.
-
-- 📹 In-app video calling alongside one-on-one and group text chat
-- 🔐 Authentication with protected routes, plus a friends/connections system for managing contacts
+- 📹 **Real-time video calling:** integrates in-app video communication directly into the platform, so users can move from text to face-to-face conversation without leaving the app.
+- 💭 **One-on-one and group text chat:** supports both individual conversations and group chat rooms with a responsive, modern UI built for real-time message delivery.
+- 🔐 **Authentication and contact management:** implements protected routes behind login, plus a friends/connections system so users can manage who they chat and call with.
 
 `Node.js` `Express` `React` — deployed on Vercel/Render
 
@@ -82,10 +76,9 @@ Full-stack, real-time chat and video communication platform with a responsive, m
 ### 📝 [ResumeForge AI](https://github.com/Ishan-1104/resumeforge-ai-1)
 **[🔗 Live Demo](https://resumeforge-ai-five.vercel.app)**
 
-Turns raw project descriptions into ATS-ready resume content — bullet points, summaries, and skills lists.
-
-- ⚡ Powered by Groq's `llama-3.3-70b-versatile` for fast inference
-- 🎨 Built as a polished SaaS-style tool rather than a bare script, with a full Next.js frontend
+- ⚡ **Fast LLM-powered content generation:** turns raw, unstructured project descriptions into polished, ATS-ready resume content using Groq's `llama-3.3-70b-versatile` model for low-latency inference.
+- 📋 **Structured resume-building output:** generates bullet points, professional summaries, and skills lists tailored to the input, rather than a single block of generic text.
+- 🎨 **Production-quality SaaS-style frontend:** built as a full Next.js 15 application with TypeScript and Tailwind CSS, giving it a polished, deployable interface rather than being just a bare script or CLI tool.
 
 `Next.js 15` `TypeScript` `Tailwind CSS` `Groq API`
 
@@ -94,10 +87,9 @@ Turns raw project descriptions into ATS-ready resume content — bullet points, 
 ### 🎬 [CineAI](https://github.com/Ishan-1104/CineAI)
 **[🔗 Live Demo](https://cineai-6ygv.onrender.com)**
 
-AI-powered movie recommendation platform built on a client/server architecture.
-
-- 🧩 Separates recommendation logic on the server from a JavaScript client, MERN-style
-- ☁️ Deployed live rather than left as a local-only demo
+- 🧩 **Client/server architecture:** separates the recommendation logic into a dedicated server layer from the JavaScript client, following a MERN-style split so the recommendation engine can evolve independently of the UI.
+- 🎞️ **AI-powered movie recommendations:** analyzes input to surface relevant movie suggestions, rather than relying on a static, pre-defined list.
+- ☁️ **Live cloud deployment:** hosted and accessible online rather than left as a local-only demo, so the recommendation flow can be tested end-to-end by anyone.
 
 `JavaScript` (MERN-style client/server split)
 
@@ -106,10 +98,9 @@ AI-powered movie recommendation platform built on a client/server architecture.
 ### 🩺 [Multi-Disease Prediction System](https://github.com/Ishan-1104/multi-diseases)
 **[🔗 Live Demo](https://multi-diseases-xahsafbhcqcsgfpvpkqgu2.streamlit.app/)**
 
-Predicts the likelihood of diabetes, heart disease, and Parkinson's disease from patient data.
-
-- 📈 Trained scikit-learn models serialized and served through a Python prediction script
-- 📦 Packaged as an interactive Streamlit app rather than a notebook-only result
+- 📈 **Multi-condition prediction:** predicts the likelihood of diabetes, heart disease, and Parkinson's disease from patient input data using separately trained models for each condition.
+- 🧪 **Trained scikit-learn models:** each disease model is trained on relevant patient datasets, serialized, and served through a dedicated Python prediction script for fast inference.
+- 📦 **Interactive app, not just a notebook:** packaged as a full Streamlit application with an input interface for patient data, making the models actually usable rather than just a one-off analysis result.
 
 `Python` `scikit-learn` `Pandas`
 
@@ -192,4 +183,3 @@ Predicts the likelihood of diabetes, heart disease, and Parkinson's disease from
 </div>
 
 ---
-
