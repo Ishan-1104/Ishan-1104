@@ -49,7 +49,7 @@ A full-stack, real-time **chat & video communication platform** built on a clean
 - **Authentication & user accounts** — signup/login flow with protected routes, so chat and calls are tied to a real user identity
 - **Friends / connections system** — users can find, add, and manage contacts before chatting or calling them
 - **Stack:** JavaScript across the full stack (Node.js/Express-style backend + a React-based frontend), deployed on Vercel
-- 🔗 **Live demo:** [streamify-eight-tau.vercel.app](https://streamify-eight-tau.vercel.app)
+- 🔗 **Live demo:** [streamify-eight-tau.vercel.app](https://streamify-1-gesi.onrender.com)
 
 > *Note: exact backend framework/real-time libraries (e.g. Express, Socket.io/WebRTC provider) — worth naming explicitly in the repo's own README so visitors don't have to open `backend/` to find out.*
 
@@ -60,11 +60,13 @@ AI-powered SaaS-style tool that turns raw project descriptions into **ATS-ready 
 
 ### 🎥 [CineAI](https://github.com/Ishan-1104/CineAI)
 An AI-powered movie recommendation platform built on a client/server architecture.
+- 🔗 **Live demo:** [resumeforge-ai-five.vercel.app](https://cineai-6ygv.onrender.com)
 - **Stack:** JavaScript (MERN-style client/server split)
 
 ### 🩺 [Multi-Disease Prediction System](https://github.com/Ishan-1104/multi-diseases)
 A machine learning app that predicts the likelihood of **diabetes, heart disease, and Parkinson's disease** from patient data.
 - Trained scikit-learn models serialized and served via a Python prediction script
+- - 🔗 **Live demo:** [resumeforge-ai-five.vercel.app](https://multi-diseases-xahsafbhcqcsgfpvpkqgu2.streamlit.app/)
 - **Stack:** Python, scikit-learn, Pandas
 
 ---
@@ -72,17 +74,17 @@ A machine learning app that predicts the likelihood of **diabetes, heart disease
 ## 💻 Tech Stack
 
 **Languages & Core**
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 
 **Frontend**
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 
 **Backend & Databases**
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
