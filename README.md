@@ -73,14 +73,17 @@ A GitHub Action regenerates this daily from my contribution graph:
 
 ---
 
-### 📝 [ResumeForge AI](https://github.com/Ishan-1104/resumeforge-ai-1)
-**[🔗 Live Demo](https://resumeforge-ai-five.vercel.app)**
+### ✈️ [TripMate AI](https://github.com/Ishan-1104/TripMate-AI)
 
-- ⚡ **Fast LLM-powered content generation:** turns raw, unstructured project descriptions into polished, ATS-ready resume content using Groq's `llama-3.3-70b-versatile` model for low-latency inference.
-- 📋 **Structured resume-building output:** generates bullet points, professional summaries, and skills lists tailored to the input, rather than a single block of generic text.
-- 🎨 **Production-quality SaaS-style frontend:** built as a full Next.js 15 application with TypeScript and Tailwind CSS, giving it a polished, deployable interface rather than being just a bare script or CLI tool.
+**[🔗 Live Demo](https://tripmate-a.streamlit.app/)**
 
-`Next.js 15` `TypeScript` `Tailwind CSS` `Groq API`
+- 🤖 **Multi-agent AI travel planning:** built with **LangGraph**, where specialized AI agents collaborate to generate complete travel itineraries including flights, hotels, sightseeing, daily schedules, and budget planning from a single natural language prompt.
+
+- ✈️ **Real-time travel intelligence:** integrates the **Duffel API** for live flight offers, **AviationStack API** for flight data, and **Tavily** for web search, enabling the system to provide up-to-date travel recommendations, destinations, and itinerary details.
+
+- ⚡ **Agentic AI orchestration:** combines **LLM reasoning, tool calling, and multi-agent workflows** to automate destination research, flight planning, hotel suggestions, budgeting, and personalized itinerary generation through an interactive Streamlit interface.
+
+`Python` `LangGraph` `LangChain` `LLMs` `Duffel API` `AviationStack API` `Tavily` `Streamlit`
 
 ---
 
